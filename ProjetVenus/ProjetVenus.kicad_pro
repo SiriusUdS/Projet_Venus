@@ -675,7 +675,7 @@
         "uuid": "06d7be88-5543-474e-b4ca-f162f1ba6233"
       }
     ],
-    "used_designators": "R14-17,#PWR32-37,H1-4,TP1-5",
+    "used_designators": "R14-17,#PWR32-37,H1-8,TP1-5",
     "variants": []
   },
   "sheets": [
