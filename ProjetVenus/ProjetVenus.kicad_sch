@@ -1850,6 +1850,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Switching:ADP2108AUJ-3.3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3131,18 +3254,6 @@
 		(uuid "45a4dec1-75d8-4beb-8f32-3bb64e101b6d")
 	)
 	(rectangle
-		(start 110.49 144.78)
-		(end 138.43 166.37)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "48784029-5a0b-4e58-bf4a-2e28def22263")
-	)
-	(rectangle
 		(start 179.07 15.24)
 		(end 255.27 66.04)
 		(stroke
@@ -3248,16 +3359,6 @@
 		)
 		(uuid "c9460a35-47fa-46bf-a9d8-c9ab98570ca3")
 	)
-	(text "To Do"
-		(exclude_from_sim no)
-		(at 132.334 143.764 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "cb2a1c69-f4aa-44c9-ad50-3db29db485b2")
-	)
 	(text "Choisir la résistance série en fonction du mosfet choisi"
 		(exclude_from_sim no)
 		(at 107.95 123.19 0)
@@ -3287,6 +3388,12 @@
 		(uuid "0fc1f724-a7ee-460f-a8ae-0d7a50f12d1d")
 	)
 	(junction
+		(at 127 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b47ad65-ad0b-4f54-ba58-529014623c73")
+	)
+	(junction
 		(at 21.59 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3309,6 +3416,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "50658013-cd30-403a-b71b-2dbdf9be6ab5")
+	)
+	(junction
+		(at 118.11 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6956d522-9036-43d1-b0d2-2482328c1abf")
 	)
 	(junction
 		(at 200.66 26.67)
@@ -3353,6 +3466,12 @@
 		(uuid "c39a49dd-fda3-4136-86e7-44915a023600")
 	)
 	(junction
+		(at 106.68 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d23f87c3-31f0-438f-a603-455ad85a4281")
+	)
+	(junction
 		(at 25.4 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3389,10 +3508,6 @@
 	(no_connect
 		(at 223.52 90.17)
 		(uuid "ca30d900-5318-4368-aa70-63a3242966be")
-	)
-	(no_connect
-		(at 246.38 44.45)
-		(uuid "d3cafb6f-25d3-4799-a215-9297fdccc170")
 	)
 	(no_connect
 		(at 223.52 87.63)
@@ -4250,6 +4365,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 149.86) (xy 137.16 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8162721-bb2f-44ef-ae7d-e8b1fe67c5b0")
+	)
+	(wire
+		(pts
 			(xy 236.22 49.53) (xy 255.27 49.53)
 		)
 		(stroke
@@ -4330,6 +4455,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 149.86) (xy 127 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0617ecd-f03c-4edd-8ddb-a466a2fa1337")
+	)
+	(wire
+		(pts
 			(xy 85.09 31.75) (xy 90.17 31.75)
 		)
 		(stroke
@@ -4357,6 +4492,16 @@
 			(type default)
 		)
 		(uuid "d4673bd3-ea2a-492f-b2a5-4d084e26fc11")
+	)
+	(wire
+		(pts
+			(xy 114.3 149.86) (xy 118.11 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d48b6912-3bbb-4dc2-b4fd-79392cf65d5a")
 	)
 	(wire
 		(pts
@@ -4530,6 +4675,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 44.45) (xy 259.08 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8404078-581b-480f-95f8-ae69fa87e2f3")
+	)
+	(wire
+		(pts
 			(xy 106.68 148.59) (xy 106.68 149.86)
 		)
 		(stroke
@@ -4687,6 +4842,16 @@
 			(justify right bottom)
 		)
 		(uuid "3cdebb6b-8c58-4ab6-b384-cf2844adf439")
+	)
+	(label "EMATCH_DET"
+		(at 259.08 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "653a9b8e-3787-4d92-a6ab-842e81afafd3")
 	)
 	(label "EMATCH"
 		(at 24.13 130.81 180)
@@ -5369,6 +5534,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 115.57 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "177d975b-7143-4157-a9c9-c2bb94f4e995")
+		(property "Reference" "#PWR041"
+			(at 115.57 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 115.57 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d783ba14-d751-4ec1-9e53-d84278892939")
+		)
+		(instances
+			(project "ProjetVenus"
+				(path "/06d7be88-5543-474e-b4ca-f162f1ba6233"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 26.67 172.72 180)
 		(unit 1)
@@ -6008,6 +6251,88 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
+		(at 115.57 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "25db4ee7-a249-4912-99ff-41efd05acdd6")
+		(property "Reference" "R19"
+			(at 116.84 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_US"
+			(at 118.11 27.9399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 116.586 26.924 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 115.57 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "62fb1803-75e3-4ff0-ab57-f34aac171129")
+		)
+		(pin "2"
+			(uuid "4921698a-553f-446f-8fc3-b0b0111fcafd")
+		)
+		(instances
+			(project "ProjetVenus"
+				(path "/06d7be88-5543-474e-b4ca-f162f1ba6233"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
 		(at 242.57 46.99 90)
 		(unit 1)
 		(body_style 1)
@@ -6080,6 +6405,87 @@
 			(project "ProjetVenus"
 				(path "/06d7be88-5543-474e-b4ca-f162f1ba6233"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 109.22 20.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28aebb21-3052-491f-afd4-890bf128aa45")
+		(property "Reference" "H1"
+			(at 111.76 17.7799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 111.76 20.3199 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 109.22 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 109.22 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c06f29fb-0a1c-4627-a14a-0fb163a60d13")
+		)
+		(instances
+			(project "ProjetVenus"
+				(path "/06d7be88-5543-474e-b4ca-f162f1ba6233"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -7506,7 +7912,7 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "100"
 			(at 96.012 153.924 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7905,10 +8311,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6ad17918-dca0-43e0-a654-ac47fd6b381c")
 		(property "Reference" "Q1"
-			(at 110.49 153.6699 0)
+			(at 109.728 155.702 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7918,8 +8323,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS_DSG"
-			(at 110.49 156.2099 0)
+		(property "Value" "Q_NMOS_GSD"
+			(at 108.204 158.496 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7929,7 +8334,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 109.22 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -8149,6 +8554,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 109.22 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d70f4d1-e839-4ffb-bc35-39465210d25f")
+		(property "Reference" "#PWR040"
+			(at 109.22 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.22 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 109.22 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f58b6c45-de2e-4fdf-9356-f0c4c6ca4c6f")
+		)
+		(instances
+			(project "ProjetVenus"
+				(path "/06d7be88-5543-474e-b4ca-f162f1ba6233"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 106.68 144.78 180)
 		(unit 1)
@@ -8171,7 +8654,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 107.188 147.828 0)
+			(at 107.95 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8796,6 +9279,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 128.27 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93036808-244c-45c6-978e-054c57ec8a9a")
+		(property "Reference" "#PWR043"
+			(at 128.27 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 128.27 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "be9741ed-fabd-42fd-a469-64bf36f0d0e7")
+		)
+		(instances
+			(project "ProjetVenus"
+				(path "/06d7be88-5543-474e-b4ca-f162f1ba6233"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 36.83 177.8 0)
 		(unit 1)
 		(body_style 1)
@@ -9028,6 +9589,88 @@
 			(project "ProjetVenus"
 				(path "/06d7be88-5543-474e-b4ca-f162f1ba6233"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 109.22 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "994e6bf6-052e-4133-b2df-815143ccd505")
+		(property "Reference" "R18"
+			(at 110.744 27.686 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_US"
+			(at 111.76 27.9399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 110.236 26.924 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 109.22 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "92d49d5c-6537-48f5-bc71-da71e4694763")
+		)
+		(pin "2"
+			(uuid "b374b004-bfaa-4577-8eb9-7ba6b6e2d882")
+		)
+		(instances
+			(project "ProjetVenus"
+				(path "/06d7be88-5543-474e-b4ca-f162f1ba6233"
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -9666,6 +10309,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 128.27 20.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac210a18-86a0-4cf8-84db-6be387896a30")
+		(property "Reference" "H4"
+			(at 130.81 17.7799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 130.81 20.3199 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 128.27 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 128.27 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "32c96b72-222e-4914-9dff-90e3199e83da")
+		)
+		(instances
+			(project "ProjetVenus"
+				(path "/06d7be88-5543-474e-b4ca-f162f1ba6233"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 15.24 31.75 0)
 		(unit 1)
@@ -9980,6 +10704,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 115.57 20.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd9d017c-05f2-4f6b-a51d-b6ab881ba53b")
+		(property "Reference" "H2"
+			(at 118.11 17.7799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 118.11 20.3199 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 115.57 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 115.57 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9b13afd8-22f7-4ffe-b2ad-ec96dcd423ec")
+		)
+		(instances
+			(project "ProjetVenus"
+				(path "/06d7be88-5543-474e-b4ca-f162f1ba6233"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V0")
 		(at 185.42 25.4 0)
 		(unit 1)
@@ -10231,6 +11036,85 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
+		(at 110.49 149.86 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c645bf6c-2168-40a3-8531-8d9f0a18a38e")
+		(property "Reference" "R16"
+			(at 110.744 147.828 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 110.744 151.638 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 110.744 148.844 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 110.49 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0c9365eb-2c40-4edc-9f9a-17fbd9fb2452")
+		)
+		(pin "2"
+			(uuid "d4ea55b9-cbbc-4289-a155-c71565ea838e")
+		)
+		(instances
+			(project "ProjetVenus"
+				(path "/06d7be88-5543-474e-b4ca-f162f1ba6233"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
 		(at 66.04 22.86 90)
 		(unit 1)
 		(body_style 1)
@@ -10303,6 +11187,169 @@
 			(project "ProjetVenus"
 				(path "/06d7be88-5543-474e-b4ca-f162f1ba6233"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 121.92 20.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cca044c6-6c0c-4ee9-a80c-f5c9a0fa94f5")
+		(property "Reference" "H3"
+			(at 124.46 17.7799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 124.46 20.3199 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 121.92 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 121.92 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fae7ab93-d4f0-455a-92fa-6c3a42fdf2ce")
+		)
+		(instances
+			(project "ProjetVenus"
+				(path "/06d7be88-5543-474e-b4ca-f162f1ba6233"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 121.92 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d2044380-691c-491d-adf0-fb91801ad88e")
+		(property "Reference" "R20"
+			(at 123.444 27.686 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_US"
+			(at 124.46 27.9399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 122.936 26.924 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 121.92 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "26d8f09d-5fad-40ce-9fbf-5d201721c46a")
+		)
+		(pin "2"
+			(uuid "11b0588d-6d82-46b2-bb1a-25f273b3f15e")
+		)
+		(instances
+			(project "ProjetVenus"
+				(path "/06d7be88-5543-474e-b4ca-f162f1ba6233"
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -10384,6 +11431,87 @@
 			(project "ProjetVenus"
 				(path "/06d7be88-5543-474e-b4ca-f162f1ba6233"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 118.11 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d7aa63c3-20eb-4b6c-a099-76c3972760e1")
+		(property "Reference" "R17"
+			(at 119.634 152.654 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 119.38 154.432 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 119.126 153.924 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 118.11 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5c7276f0-a325-4315-9096-3379fd797069")
+		)
+		(pin "1"
+			(uuid "d031a765-dcdb-4cd1-9269-a4dd38f6684c")
+		)
+		(instances
+			(project "ProjetVenus"
+				(path "/06d7be88-5543-474e-b4ca-f162f1ba6233"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -10946,6 +12074,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 118.11 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efbb6f27-d86b-4184-958e-3db27c9fd656")
+		(property "Reference" "#PWR038"
+			(at 118.11 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 118.11 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "df38ddd9-3a44-4d96-899d-d3f859f73049")
+		)
+		(instances
+			(project "ProjetVenus"
+				(path "/06d7be88-5543-474e-b4ca-f162f1ba6233"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 24.13 142.24 0)
 		(unit 1)
 		(body_style 1)
@@ -11180,6 +12386,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 128.27 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f59a2825-bd48-4d56-9b51-3bdf0cea6eb1")
+		(property "Reference" "R21"
+			(at 129.794 27.686 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_US"
+			(at 130.81 27.9399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 129.286 26.924 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 128.27 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "99827389-a6fd-40ca-b5a6-3fba4e4ae1ab")
+		)
+		(pin "2"
+			(uuid "3a9cace9-1236-4d79-b131-1f710cf02052")
+		)
+		(instances
+			(project "ProjetVenus"
+				(path "/06d7be88-5543-474e-b4ca-f162f1ba6233"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 78.74 73.66 0)
 		(unit 1)
@@ -11253,6 +12541,88 @@
 			(project "ProjetVenus"
 				(path "/06d7be88-5543-474e-b4ca-f162f1ba6233"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 127 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fcb3771a-200d-4a3b-a17f-377bb1f49b6f")
+		(property "Reference" "C11"
+			(at 130.81 152.3999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 130.81 154.9399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 127.9652 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 127 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "db1d9308-781b-4cb3-b133-7e77d6626d81")
+		)
+		(pin "1"
+			(uuid "f1b138f9-0a5f-4930-9897-cf80f8c29f4f")
+		)
+		(instances
+			(project "ProjetVenus"
+				(path "/06d7be88-5543-474e-b4ca-f162f1ba6233"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -11333,6 +12703,162 @@
 			(project "ProjetVenus"
 				(path "/06d7be88-5543-474e-b4ca-f162f1ba6233"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 127 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd8ac163-a95f-4318-ba46-d5117e7400cd")
+		(property "Reference" "#PWR039"
+			(at 127 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 127 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2c10012e-29b2-44c3-89f5-d052bfca2805")
+		)
+		(instances
+			(project "ProjetVenus"
+				(path "/06d7be88-5543-474e-b4ca-f162f1ba6233"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 121.92 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdadf9c9-4cb8-40b9-9f06-33302a8bb97d")
+		(property "Reference" "#PWR042"
+			(at 121.92 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 121.92 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 121.92 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "01d4fc11-0de6-4bc1-b9a8-6b36ee37d695")
+		)
+		(instances
+			(project "ProjetVenus"
+				(path "/06d7be88-5543-474e-b4ca-f162f1ba6233"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
